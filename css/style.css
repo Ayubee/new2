@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    background-color:#00FFFF;
+    padding: 25px 0 25px 0;
+}
+.header-content {
+    display: flex;
+}
+
+.header-title {
+    font-size: 2em;
+    font-weight: 900;
+    
+}
+
+.header-title:hover {
+    color: #FF7F5d;
+}
+
+.header-container {
+    display: flex;
+    margin: 0 40px;
+    justify-content: space-between;
+}
+
+.header-menu {
+    align-items: center;
+    margin-left: 35px;
+    display: flex;
+}
+
+.menu-burger {
+    margin-left: 25px;
+    list-style: none;
+}
+
+.header-number {
+    margin: auto 0;
+}
