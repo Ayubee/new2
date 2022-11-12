@@ -5,7 +5,7 @@
 
 .header {
     width: 100%;
-    background-color:#00FFFF;
+    background-color:#5F9EA0;
     padding: 25px 0 25px 0;
 }
 .header-content {
@@ -51,4 +51,27 @@
 
 .header-number {
     margin: auto 0;
+    text-decoration: none;
+    font-family: 'Comic Sans MS';
+}
+
+.header-number a {
+    text-decoration: none;
+    color: burlywood;
+}
+.header-number a:hover{
+    color: aquamarine;
+}
+
+.green:hover {
+    color:green
+}
+.red:hover {
+    color:red
+}
+.blue:hover {
+    color: blue;
+}
+.yellow:hover {
+    color:yellow
 }
