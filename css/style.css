@@ -13,6 +13,7 @@
 }
 
 .header-title {
+    font-family: 'Comic Sans MS';
     font-size: 2em;
     font-weight: 900;
     
@@ -34,6 +35,15 @@
     display: flex;
 }
 
+.menu-link {
+    font-family: 'Comic Sans MS';
+    color: white;
+    font-size: 20px;
+    text-decoration: none;   
+}
+.menu-link:hover {
+    color: green;
+}
 .menu-burger {
     margin-left: 25px;
     list-style: none;
